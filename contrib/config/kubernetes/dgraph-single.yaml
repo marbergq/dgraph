@@ -27,7 +27,7 @@ spec:
     app: dgraph
 ---
 # This StatefulSet runs 1 pod with one Zero, one Server & one Ratel containers.
-apiVersion: apps/v1
+apiVersion: apps/v1beta2
 kind: StatefulSet
 metadata:
   name: dgraph
